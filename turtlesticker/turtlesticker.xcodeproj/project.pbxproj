@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308BF91E2441B66E00F2BBDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308BF91D2441B66E00F2BBDB /* AppDelegate.m */; };
+		308BF9212441B66E00F2BBDB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308BF9202441B66E00F2BBDB /* SceneDelegate.m */; };
+		308BF9272441B66E00F2BBDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9252441B66E00F2BBDB /* Main.storyboard */; };
+		308BF9292441B67400F2BBDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9282441B67400F2BBDB /* Assets.xcassets */; };
+		308BF92C2441B67400F2BBDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308BF92A2441B67400F2BBDB /* LaunchScreen.storyboard */; };
+		308BF92F2441B67400F2BBDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 308BF92E2441B67400F2BBDB /* main.m */; };
+		308BF9382441B88200F2BBDB /* TUStickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308BF9372441B88200F2BBDB /* TUStickerViewController.m */; };
+		308BF9422441B9AB00F2BBDB /* TUCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 308BF93F2441B9AB00F2BBDB /* TUCollectionViewCell.m */; };
+		308BF9432441B9AB00F2BBDB /* TUCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9412441B9AB00F2BBDB /* TUCollectionViewCell.xib */; };
+		308BF97E2441BC1B00F2BBDB /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308BF97D2441BC1B00F2BBDB /* Stickers.xcassets */; };
+		308BF9822441BC1B00F2BBDB /* turtle sticker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 308BF97B2441BC1900F2BBDB /* turtle sticker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		308BF9882441DAB700F2BBDB /* turtle1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9872441DAB600F2BBDB /* turtle1@3x.png */; };
+		308BF98A2441DFC000F2BBDB /* turtle2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9892441DFC000F2BBDB /* turtle2@3x.png */; };
+		308BF98C2441E3A000F2BBDB /* turtle3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF98B2441E3A000F2BBDB /* turtle3@3x.png */; };
+		308BF98E2441E4A300F2BBDB /* turtle4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF98D2441E4A300F2BBDB /* turtle4@3x.png */; };
+		308BF9902441E50400F2BBDB /* turtle5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF98F2441E50400F2BBDB /* turtle5@3x.png */; };
+		308BF9922441E5A500F2BBDB /* turtle6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9912441E5A500F2BBDB /* turtle6@3x.png */; };
+		308BF9942441E60800F2BBDB /* turtle7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9932441E60800F2BBDB /* turtle7@3x.png */; };
+		308BF9962441E6B800F2BBDB /* turtle8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9952441E6B800F2BBDB /* turtle8@3x.png */; };
+		308BF9982441E7D400F2BBDB /* turtle9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9972441E7D400F2BBDB /* turtle9@3x.png */; };
+		308BF99A244200F300F2BBDB /* turtle10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF999244200F300F2BBDB /* turtle10@3x.png */; };
+		308BF99C2442015B00F2BBDB /* turtle11@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF99B2442015B00F2BBDB /* turtle11@3x.png */; };
+		308BF99E244201AB00F2BBDB /* turtle12@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF99D244201AB00F2BBDB /* turtle12@3x.png */; };
+		308BF9A0244201F600F2BBDB /* turtle13@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF99F244201F600F2BBDB /* turtle13@3x.png */; };
+		308BF9A2244202C700F2BBDB /* turtle14@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9A1244202C600F2BBDB /* turtle14@3x.png */; };
+		308BF9A42442031100F2BBDB /* turtle15@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9A32442031100F2BBDB /* turtle15@3x.png */; };
+		308BF9A62442035000F2BBDB /* turtle16@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9A52442035000F2BBDB /* turtle16@3x.png */; };
+		308BF9A82442038B00F2BBDB /* turtle17@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9A72442038B00F2BBDB /* turtle17@3x.png */; };
+		308BF9AA244203E200F2BBDB /* turtle18@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9A9244203E200F2BBDB /* turtle18@3x.png */; };
+		308BF9AC2442042100F2BBDB /* turtle19@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9AB2442042100F2BBDB /* turtle19@3x.png */; };
+		308BF9AE2442045C00F2BBDB /* turtle20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9AD2442045C00F2BBDB /* turtle20@3x.png */; };
+		308BF9B0244204A100F2BBDB /* turtle21@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9AF244204A100F2BBDB /* turtle21@3x.png */; };
+		308BF9B2244204E700F2BBDB /* turtle22@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9B1244204E700F2BBDB /* turtle22@3x.png */; };
+		308BF9B42442052800F2BBDB /* turtle23@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9B32442052800F2BBDB /* turtle23@3x.png */; };
+		308BF9B62442056C00F2BBDB /* turtle24@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9B52442056C00F2BBDB /* turtle24@3x.png */; };
+		308BF9B824421D9200F2BBDB /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308BF9B724421D9200F2BBDB /* appicon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		308BF9802441BC1B00F2BBDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308BF9112441B66E00F2BBDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308BF97A2441BC1900F2BBDB;
+			remoteInfo = sticker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		308BF9862441BC1B00F2BBDB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				308BF9822441BC1B00F2BBDB /* turtle sticker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		308BF9192441B66E00F2BBDB /* turtle sticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "turtle sticker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		308BF91C2441B66E00F2BBDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		308BF91D2441B66E00F2BBDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		308BF91F2441B66E00F2BBDB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		308BF9202441B66E00F2BBDB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		308BF9262441B66E00F2BBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		308BF9282441B67400F2BBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		308BF92B2441B67400F2BBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		308BF92D2441B67400F2BBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308BF92E2441B67400F2BBDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		308BF9362441B88200F2BBDB /* TUStickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUStickerViewController.h; sourceTree = "<group>"; };
+		308BF9372441B88200F2BBDB /* TUStickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUStickerViewController.m; sourceTree = "<group>"; };
+		308BF93F2441B9AB00F2BBDB /* TUCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUCollectionViewCell.m; sourceTree = "<group>"; };
+		308BF9402441B9AB00F2BBDB /* TUCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUCollectionViewCell.h; sourceTree = "<group>"; };
+		308BF9412441B9AB00F2BBDB /* TUCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TUCollectionViewCell.xib; sourceTree = "<group>"; };
+		308BF97B2441BC1900F2BBDB /* turtle sticker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "turtle sticker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		308BF97D2441BC1B00F2BBDB /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		308BF97F2441BC1B00F2BBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308BF9872441DAB600F2BBDB /* turtle1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle1@3x.png"; sourceTree = "<group>"; };
+		308BF9892441DFC000F2BBDB /* turtle2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle2@3x.png"; sourceTree = "<group>"; };
+		308BF98B2441E3A000F2BBDB /* turtle3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle3@3x.png"; sourceTree = "<group>"; };
+		308BF98D2441E4A300F2BBDB /* turtle4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle4@3x.png"; sourceTree = "<group>"; };
+		308BF98F2441E50400F2BBDB /* turtle5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle5@3x.png"; sourceTree = "<group>"; };
+		308BF9912441E5A500F2BBDB /* turtle6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle6@3x.png"; sourceTree = "<group>"; };
+		308BF9932441E60800F2BBDB /* turtle7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle7@3x.png"; sourceTree = "<group>"; };
+		308BF9952441E6B800F2BBDB /* turtle8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle8@3x.png"; sourceTree = "<group>"; };
+		308BF9972441E7D400F2BBDB /* turtle9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle9@3x.png"; sourceTree = "<group>"; };
+		308BF999244200F300F2BBDB /* turtle10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle10@3x.png"; sourceTree = "<group>"; };
+		308BF99B2442015B00F2BBDB /* turtle11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle11@3x.png"; sourceTree = "<group>"; };
+		308BF99D244201AB00F2BBDB /* turtle12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle12@3x.png"; sourceTree = "<group>"; };
+		308BF99F244201F600F2BBDB /* turtle13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle13@3x.png"; sourceTree = "<group>"; };
+		308BF9A1244202C600F2BBDB /* turtle14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle14@3x.png"; sourceTree = "<group>"; };
+		308BF9A32442031100F2BBDB /* turtle15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle15@3x.png"; sourceTree = "<group>"; };
+		308BF9A52442035000F2BBDB /* turtle16@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle16@3x.png"; sourceTree = "<group>"; };
+		308BF9A72442038B00F2BBDB /* turtle17@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle17@3x.png"; sourceTree = "<group>"; };
+		308BF9A9244203E200F2BBDB /* turtle18@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle18@3x.png"; sourceTree = "<group>"; };
+		308BF9AB2442042100F2BBDB /* turtle19@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle19@3x.png"; sourceTree = "<group>"; };
+		308BF9AD2442045C00F2BBDB /* turtle20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle20@3x.png"; sourceTree = "<group>"; };
+		308BF9AF244204A100F2BBDB /* turtle21@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle21@3x.png"; sourceTree = "<group>"; };
+		308BF9B1244204E700F2BBDB /* turtle22@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle22@3x.png"; sourceTree = "<group>"; };
+		308BF9B32442052800F2BBDB /* turtle23@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle23@3x.png"; sourceTree = "<group>"; };
+		308BF9B52442056C00F2BBDB /* turtle24@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle24@3x.png"; sourceTree = "<group>"; };
+		308BF9B724421D9200F2BBDB /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308BF9162441B66E00F2BBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		308BF9102441B66E00F2BBDB = {
+			isa = PBXGroup;
+			children = (
+				308BF91B2441B66E00F2BBDB /* turtlesticker */,
+				308BF97C2441BC1900F2BBDB /* sticker */,
+				308BF91A2441B66E00F2BBDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		308BF91A2441B66E00F2BBDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308BF9192441B66E00F2BBDB /* turtle sticker.app */,
+				308BF97B2441BC1900F2BBDB /* turtle sticker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308BF91B2441B66E00F2BBDB /* turtlesticker */ = {
+			isa = PBXGroup;
+			children = (
+				308BF9B724421D9200F2BBDB /* appicon.png */,
+				308BF9352441B85F00F2BBDB /* 主控制器 */,
+				308BF9252441B66E00F2BBDB /* Main.storyboard */,
+				308BF91C2441B66E00F2BBDB /* AppDelegate.h */,
+				308BF91D2441B66E00F2BBDB /* AppDelegate.m */,
+				308BF91F2441B66E00F2BBDB /* SceneDelegate.h */,
+				308BF9202441B66E00F2BBDB /* SceneDelegate.m */,
+				308BF9282441B67400F2BBDB /* Assets.xcassets */,
+				308BF92A2441B67400F2BBDB /* LaunchScreen.storyboard */,
+				308BF92D2441B67400F2BBDB /* Info.plist */,
+				308BF92E2441B67400F2BBDB /* main.m */,
+			);
+			path = turtlesticker;
+			sourceTree = "<group>";
+		};
+		308BF9352441B85F00F2BBDB /* 主控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				308BF9462441BA4400F2BBDB /* TU图片 */,
+				308BF9362441B88200F2BBDB /* TUStickerViewController.h */,
+				308BF9372441B88200F2BBDB /* TUStickerViewController.m */,
+				308BF9402441B9AB00F2BBDB /* TUCollectionViewCell.h */,
+				308BF93F2441B9AB00F2BBDB /* TUCollectionViewCell.m */,
+				308BF9412441B9AB00F2BBDB /* TUCollectionViewCell.xib */,
+			);
+			path = "主控制器";
+			sourceTree = "<group>";
+		};
+		308BF9462441BA4400F2BBDB /* TU图片 */ = {
+			isa = PBXGroup;
+			children = (
+				308BF9B52442056C00F2BBDB /* turtle24@3x.png */,
+				308BF9B32442052800F2BBDB /* turtle23@3x.png */,
+				308BF9B1244204E700F2BBDB /* turtle22@3x.png */,
+				308BF9AF244204A100F2BBDB /* turtle21@3x.png */,
+				308BF9AD2442045C00F2BBDB /* turtle20@3x.png */,
+				308BF9AB2442042100F2BBDB /* turtle19@3x.png */,
+				308BF9A9244203E200F2BBDB /* turtle18@3x.png */,
+				308BF9A72442038B00F2BBDB /* turtle17@3x.png */,
+				308BF9A52442035000F2BBDB /* turtle16@3x.png */,
+				308BF9A32442031100F2BBDB /* turtle15@3x.png */,
+				308BF9A1244202C600F2BBDB /* turtle14@3x.png */,
+				308BF99F244201F600F2BBDB /* turtle13@3x.png */,
+				308BF99D244201AB00F2BBDB /* turtle12@3x.png */,
+				308BF99B2442015B00F2BBDB /* turtle11@3x.png */,
+				308BF999244200F300F2BBDB /* turtle10@3x.png */,
+				308BF9972441E7D400F2BBDB /* turtle9@3x.png */,
+				308BF9952441E6B800F2BBDB /* turtle8@3x.png */,
+				308BF9932441E60800F2BBDB /* turtle7@3x.png */,
+				308BF9912441E5A500F2BBDB /* turtle6@3x.png */,
+				308BF98F2441E50400F2BBDB /* turtle5@3x.png */,
+				308BF98D2441E4A300F2BBDB /* turtle4@3x.png */,
+				308BF98B2441E3A000F2BBDB /* turtle3@3x.png */,
+				308BF9892441DFC000F2BBDB /* turtle2@3x.png */,
+				308BF9872441DAB600F2BBDB /* turtle1@3x.png */,
+			);
+			path = "TU图片";
+			sourceTree = "<group>";
+		};
+		308BF97C2441BC1900F2BBDB /* sticker */ = {
+			isa = PBXGroup;
+			children = (
+				308BF97D2441BC1B00F2BBDB /* Stickers.xcassets */,
+				308BF97F2441BC1B00F2BBDB /* Info.plist */,
+			);
+			path = sticker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308BF9182441B66E00F2BBDB /* turtlesticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308BF9322441B67400F2BBDB /* Build configuration list for PBXNativeTarget "turtlesticker" */;
+			buildPhases = (
+				308BF9152441B66E00F2BBDB /* Sources */,
+				308BF9162441B66E00F2BBDB /* Frameworks */,
+				308BF9172441B66E00F2BBDB /* Resources */,
+				308BF9862441BC1B00F2BBDB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308BF9812441BC1B00F2BBDB /* PBXTargetDependency */,
+			);
+			name = turtlesticker;
+			productName = turtlesticker;
+			productReference = 308BF9192441B66E00F2BBDB /* turtle sticker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		308BF97A2441BC1900F2BBDB /* sticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308BF9832441BC1B00F2BBDB /* Build configuration list for PBXNativeTarget "sticker" */;
+			buildPhases = (
+				308BF9792441BC1900F2BBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sticker;
+			productName = sticker;
+			productReference = 308BF97B2441BC1900F2BBDB /* turtle sticker.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		308BF9112441B66E00F2BBDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = cn18x;
+				TargetAttributes = {
+					308BF9182441B66E00F2BBDB = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					308BF97A2441BC1900F2BBDB = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 308BF9142441B66E00F2BBDB /* Build configuration list for PBXProject "turtlesticker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 308BF9102441B66E00F2BBDB;
+			productRefGroup = 308BF91A2441B66E00F2BBDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308BF9182441B66E00F2BBDB /* turtlesticker */,
+				308BF97A2441BC1900F2BBDB /* sticker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308BF9172441B66E00F2BBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308BF99E244201AB00F2BBDB /* turtle12@3x.png in Resources */,
+				308BF9922441E5A500F2BBDB /* turtle6@3x.png in Resources */,
+				308BF9A0244201F600F2BBDB /* turtle13@3x.png in Resources */,
+				308BF98E2441E4A300F2BBDB /* turtle4@3x.png in Resources */,
+				308BF92C2441B67400F2BBDB /* LaunchScreen.storyboard in Resources */,
+				308BF9B824421D9200F2BBDB /* appicon.png in Resources */,
+				308BF99C2442015B00F2BBDB /* turtle11@3x.png in Resources */,
+				308BF9A82442038B00F2BBDB /* turtle17@3x.png in Resources */,
+				308BF9AE2442045C00F2BBDB /* turtle20@3x.png in Resources */,
+				308BF9A42442031100F2BBDB /* turtle15@3x.png in Resources */,
+				308BF9B2244204E700F2BBDB /* turtle22@3x.png in Resources */,
+				308BF9B42442052800F2BBDB /* turtle23@3x.png in Resources */,
+				308BF9982441E7D400F2BBDB /* turtle9@3x.png in Resources */,
+				308BF9B0244204A100F2BBDB /* turtle21@3x.png in Resources */,
+				308BF9A62442035000F2BBDB /* turtle16@3x.png in Resources */,
+				308BF9942441E60800F2BBDB /* turtle7@3x.png in Resources */,
+				308BF9962441E6B800F2BBDB /* turtle8@3x.png in Resources */,
+				308BF99A244200F300F2BBDB /* turtle10@3x.png in Resources */,
+				308BF9882441DAB700F2BBDB /* turtle1@3x.png in Resources */,
+				308BF9432441B9AB00F2BBDB /* TUCollectionViewCell.xib in Resources */,
+				308BF9A2244202C700F2BBDB /* turtle14@3x.png in Resources */,
+				308BF9AA244203E200F2BBDB /* turtle18@3x.png in Resources */,
+				308BF9292441B67400F2BBDB /* Assets.xcassets in Resources */,
+				308BF9AC2442042100F2BBDB /* turtle19@3x.png in Resources */,
+				308BF9B62442056C00F2BBDB /* turtle24@3x.png in Resources */,
+				308BF98A2441DFC000F2BBDB /* turtle2@3x.png in Resources */,
+				308BF9272441B66E00F2BBDB /* Main.storyboard in Resources */,
+				308BF9902441E50400F2BBDB /* turtle5@3x.png in Resources */,
+				308BF98C2441E3A000F2BBDB /* turtle3@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308BF9792441BC1900F2BBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308BF97E2441BC1B00F2BBDB /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		308BF9152441B66E00F2BBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308BF9422441B9AB00F2BBDB /* TUCollectionViewCell.m in Sources */,
+				308BF91E2441B66E00F2BBDB /* AppDelegate.m in Sources */,
+				308BF92F2441B67400F2BBDB /* main.m in Sources */,
+				308BF9382441B88200F2BBDB /* TUStickerViewController.m in Sources */,
+				308BF9212441B66E00F2BBDB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		308BF9812441BC1B00F2BBDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308BF97A2441BC1900F2BBDB /* sticker */;
+			targetProxy = 308BF9802441BC1B00F2BBDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		308BF9252441B66E00F2BBDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308BF9262441B66E00F2BBDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		308BF92A2441B67400F2BBDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308BF92B2441B67400F2BBDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		308BF9302441B67400F2BBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		308BF9312441B67400F2BBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308BF9332441B67400F2BBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 28NM2875K9;
+				INFOPLIST_FILE = turtlesticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn18x.turtlesticker;
+				PRODUCT_NAME = "turtle sticker";
+				PROVISIONING_PROFILE_SPECIFIER = com.cn18x.turtlesticker.dev.20200411;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		308BF9342441B67400F2BBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 28NM2875K9;
+				INFOPLIST_FILE = turtlesticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn18x.turtlesticker;
+				PRODUCT_NAME = "turtle sticker";
+				PROVISIONING_PROFILE_SPECIFIER = com.cn18x.turtlesticker.dev.20200411;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		308BF9842441BC1B00F2BBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 28NM2875K9;
+				INFOPLIST_FILE = sticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn18x.turtlesticker.sticker;
+				PRODUCT_NAME = "turtle sticker";
+				PROVISIONING_PROFILE_SPECIFIER = appext_turtlesticker_sticker_dev_20200411;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		308BF9852441BC1B00F2BBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 28NM2875K9;
+				INFOPLIST_FILE = sticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn18x.turtlesticker.sticker;
+				PRODUCT_NAME = "turtle sticker";
+				PROVISIONING_PROFILE_SPECIFIER = appext_turtlesticker_sticker_dev_20200411;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308BF9142441B66E00F2BBDB /* Build configuration list for PBXProject "turtlesticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308BF9302441B67400F2BBDB /* Debug */,
+				308BF9312441B67400F2BBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308BF9322441B67400F2BBDB /* Build configuration list for PBXNativeTarget "turtlesticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308BF9332441B67400F2BBDB /* Debug */,
+				308BF9342441B67400F2BBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308BF9832441BC1B00F2BBDB /* Build configuration list for PBXNativeTarget "sticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308BF9842441BC1B00F2BBDB /* Debug */,
+				308BF9852441BC1B00F2BBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 308BF9112441B66E00F2BBDB /* Project object */;
+}
